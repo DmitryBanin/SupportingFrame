@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 72, 59);
+    height: 90vh;
+}
+
+a {
+color: #ffffff;
+}
+
+.box {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
