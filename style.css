@@ -1,22 +1,46 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(27, 72, 59);
-    height: 90vh;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+  font-family: Montserrat;
+  font-size: 35px;
+  letter-spacing: -0.3px;
+  padding: 20px;
+  background: #212121;
 }
 
-a {
-color: #ffffff;
-font-size: 30px;
-text-decoration: none;
+ul{
+  list-style: none;  
+}
+ul li{
+  margin-bottom: 20px;
 }
 
-.box {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    flex-direction: column;
-    width: 150px;
+.center-mid{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+a.gradient-link{
+  position: relative;
+  text-decoration: none;
+  font-size: 35x;
+  color: #fff;
+}
+a.gradient-link::after {
+    content: '';
+    width: 22%;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;    
+    background: linear-gradient(45deg, #0947db, #07d89d);
+    transition: all 0.8s cubic-bezier(0.2,1,0.3,1);
+    z-index: -1;
+    color: #000000;
+}
+
+a.gradient-link:hover::after{
+    width: 150%;
 }
 
