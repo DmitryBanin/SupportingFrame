@@ -36,9 +36,14 @@ li{
   padding: 5%;
 }
 
+p{
+  margin: 0;
+  padding: 0;
+}
+
 img{
   width: 100%;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 a.gradient-link{
@@ -51,10 +56,10 @@ a.gradient-link{
 a.gradient-link::after {
     content: '';
     width: 5%;
-    height: 33px;
+    height: 30px;
     position: absolute;
     left: 0px;
-    /* bottom: 0px;     */
+    bottom: 0px;    
     background: linear-gradient(45deg, #0947db, #07d89d);
     transition: all 0.8s cubic-bezier(0.2,1,0.3,1);
     z-index: -1;
