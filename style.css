@@ -2,7 +2,7 @@
 
 body{
   font-family: Montserrat;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: -0.3px;
   margin: 0;
   padding: 0;
@@ -42,14 +42,14 @@ p{
 }
 
 img{
-  width: 100%;
+  height: 385px;
   /* margin-bottom: 10px; */
 }
 
 a.gradient-link{
   position: relative;
   text-decoration: none;
-  font-size: 25x;
+  font-size: 20px;
   color: #fff;
 }
 
